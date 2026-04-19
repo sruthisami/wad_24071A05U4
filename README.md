@@ -20,4 +20,4 @@ web page.
 11. [ ] For the above application create authorized end points using JWT (JSON WebToken).
 12. [ ] Create a react application for the student management system havingregistration, login, contact, about pages and implement routing to navigate through these pages.
 13. [x] Create a service in react that fetches the weather information fromopenweathermap.org and the display the current and historical weather information using graphical representation using chart.js
-14. [ ] Create a TODO application in react with necessary components and deploy it into github.
+14. [x] Create a TODO application in react with necessary components and deploy it into github.
