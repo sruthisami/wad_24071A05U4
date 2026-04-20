@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/auth", authRoutes);
 app.use("/students", studentRoutes);
 
-const PORT = 5001;
+const PORT = 5000;
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);

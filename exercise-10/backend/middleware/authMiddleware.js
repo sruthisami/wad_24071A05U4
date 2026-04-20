@@ -7,12 +7,12 @@ export const verifyToken = (req, res, next) => {
     return res.status(401).json({ message: "Access denied. No token." });
   }
 
-  // Format: Bearer TOKEN
+
   const token = authHeader.split(" ")[1];
 
   try {
     const decoded = jwt.verify(token, "secretKey");
-    req.user = decoded; // attach user info
+    req.user = decoded; 
     next();
   } catch (err) {
     res.status(403).json({ message: "Invalid token" });
